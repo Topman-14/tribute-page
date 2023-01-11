@@ -1,5 +1,5 @@
 # Fela Kuti Tribute-Page
-This is one of my certification projects for the responsive web design course on @freecodecamp.org. 
+This is one of my certification projects for the responsive web design course on https://freecodecamp.org .
 It features a late popular Nigerian musician - Fela Kuti. currently, most of the text is taken 
 straight from wikipedia to start it off.
 In time I'll be adding more pages and musicians from all over the globe.
