@@ -1,0 +1,99 @@
+body{
+    background:#dbf4ff;
+  }
+  a{
+    font-family: 'Nunito', san-sefif;
+    text-decoration: none;
+    color:#050f5e;
+    font-size:1.3em;
+  }
+  .material-symbols-outlined{
+    font-size:0px;
+  }
+  nav{
+    background:white;
+    box-shadow: 0px 0.5px 01vw;
+    display:grid;
+    margin:-8px;
+    grid-template-areas:
+    " home  br  nav";
+    grid-template-columns: auto 0.4fr 1.5fr;
+  }
+  #home{
+    grid-area:home;
+    padding-left:30px;
+    padding-block: 8px;
+  }
+  #menu{
+    display:flex;
+    justify-content:space-evenly;
+    grid-area:nav;
+  }
+  h1{
+    padding:20px 0 10px 20px;
+    font-family: 'Quicksand', Sans-serif;
+    font-size:2em;
+  }
+  #img-div{
+    background:#ffffff;
+    padding:12px;
+    box-shadow:0px 1px 1vw;
+    width:80%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #image{
+    width:100%;
+    margin: 0 auto;
+  }
+  figcaption{
+    font-family:'Poppins', Sans-serif;
+    font-size:0.8em;
+    margin-top: 10px;
+  }
+  h3{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.5em;
+    padding-top:3vw;
+  }
+  footer{
+    margin-top:20%;
+    border:0px;
+    font-size:3vw;
+    font-family:'Nunito', san-serif;
+    text-align:center;
+  }
+  .size0{
+    padding:8px;
+    transition: 0.2s ease-in;
+  }
+  .size0:hover{
+  background:blue;
+  color:white;
+  }
+  .content0{
+    font-family:'Nunito', san-serif;
+    padding:8px;
+    text-align:center
+  }
+  .linksizebug{
+    font-size:inherit;
+  }
+
+@media (max-width: 600px) {
+    h1{
+      font-size: 1.6em;
+    }
+    nav{
+      grid-template-columns: auto 1fr 20px;
+    }
+    .size0{
+     display: none;
+    
+    }
+    .material-symbols-outlined{
+      font-size: 150%;
+      padding:10px 20px 10px 0;
+    }
+}
