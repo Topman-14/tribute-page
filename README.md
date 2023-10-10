@@ -5,9 +5,6 @@ It features a late popular Nigerian musician - Fela Kuti.
 Most of the text was taken 
 straight from wikipedia to start it off.
 <br />
-In time I'll be adding more pages and musicians from all over the globe.
-Also, I'll have to improve the functionality and design of the page
-<br />
 
 ## Languages
 Plain HTML and CSS. No script has been added yet 
